@@ -1,6 +1,8 @@
 language: c
 sudo: false # only for faster builds
 script:
+  - make
+  - ./osx-temp-freq
   - gcov smc.c
 
 after_success:

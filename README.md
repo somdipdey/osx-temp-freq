@@ -46,7 +46,7 @@ CPU Frequency at 0:1:45 : 2599944981
 
 ## Maintainer
 
-Somdip Dey <somdip.dey@essex.ac.uk>
+Somdip Dey, <somdip.dey@essex.ac.uk>
 
 
 ### Inspiration

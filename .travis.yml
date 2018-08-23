@@ -1,7 +1,7 @@
 language: c
 sudo: false # only for faster builds
 script:
-  - gcc -O2 -Wall -framework IOKit -o osx-temp-freq smc.c
+  - gcc -O2 -Wall -o osx-temp-freq smc.c
   - ./osx-temp-freq
   - gcov smc.c
 

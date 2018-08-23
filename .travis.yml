@@ -1,13 +1,9 @@
 language: c
-matrix:
-  include:
-    - os: osx
-      osx_image: xcode8
-      env:
-        - MATRIX_EVAL="brew install gcc && CC=gcc-7 && CXX=g++-7"
+sudo: false # only for faster builds
+script:
+  - gcc -O2 -Wall -framework IOKit -o osx-temp-freq smc.c
+  - ./osx-temp-freq
+  - gcov smc.c
 
-before_install:
-    - eval "${MATRIX_EVAL}"
-# command to install 
-install:
-  - echo "Installation Done"
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

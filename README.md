@@ -3,7 +3,7 @@
 Outputs current CPU temperature and frequency for OSX.
 
 ## Build for OSX:
-[![Build Status](https://travis-ci.org/somdipdey/Live_Graph_Plot_With_Matplotlib_In_Python3.svg?branch=master)](https://travis-ci.org/somdipdey/osx-temp-freq)
+[![Build Status](https://travis-ci.org/somdipdey/osx-temp-freq.svg?branch=master)](https://travis-ci.org/somdipdey/osx-temp-freq)
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://github.com/somdipdey/osx-temp-freq/blob/master/LICENSE)
 
 ## Usage

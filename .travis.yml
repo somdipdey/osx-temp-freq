@@ -1,0 +1,9 @@
+language: c
+sudo: false # only for faster builds
+script:
+  - gcc -O2 -Wall -framework IOKit -o osx-temp-freq smc.c
+  - ./osx-temp-freq
+  - gcov smc.c
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

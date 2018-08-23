@@ -1,0 +1,8 @@
+{
+  "name": "osx-temp-freq",
+  "version": "0.0.0",
+  "repo": "somdipdey/osx-temp-freq",
+  "description": "Outputs current CPU frequency and temperature in °C for OSX",
+  "keywords": ["osx", "cpu", "frequency", "temperature", "sensors"],
+  "install": "make install"
+}

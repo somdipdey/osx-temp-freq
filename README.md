@@ -1,6 +1,6 @@
 # OSX CPU Temperature and Frequency
 
-Outputs current CPU temperature and frequency for OSX.
+Outputs current CPU temperature (in °C) and frequency (in Hz) for OSX.
 
 ## Build for OSX:
 [![Build Status](https://travis-ci.org/somdipdey/osx-temp-freq.svg?branch=master)](https://travis-ci.org/somdipdey/osx-temp-freq)

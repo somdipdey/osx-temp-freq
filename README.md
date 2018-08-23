@@ -19,6 +19,12 @@ make
 or
 
 ```bash
+./osx-temp-freq my_output_file.csv # Output frequency and temperature inside a file in the same directory as the program with the specified file name, `my_output_file.csv`
+```
+
+or
+
+```bash
 sudo make install # installs to /usr/local/bin
 osx-temp-freq
 ```
